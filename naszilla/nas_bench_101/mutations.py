@@ -1,7 +1,7 @@
 
 import copy
 import numpy as np
-from nasbench import api
+from nasbenchv2 import api
 
 INPUT = 'input'
 OUTPUT = 'output'

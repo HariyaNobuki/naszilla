@@ -7,7 +7,7 @@ import os
 import pickle
 import torch
 
-from naszilla.nas_bench_201.distances import *
+from nas_bench_201.distances import *
 
 INPUT = 'input'
 OUTPUT = 'output'

@@ -5,12 +5,12 @@ import random
 import pickle
 import torch
 
-from nasbench import api
+from nasbenchv2 import api
 
-from naszilla.nas_bench_101.distances import *
-from naszilla.nas_bench_101.sample_random import *
-from naszilla.nas_bench_101.encodings import *
-from naszilla.nas_bench_101.mutations import *
+from nas_bench_101.distances import *
+from nas_bench_101.sample_random import *
+from nas_bench_101.encodings import *
+from nas_bench_101.mutations import *
 
 
 INPUT = 'input'
