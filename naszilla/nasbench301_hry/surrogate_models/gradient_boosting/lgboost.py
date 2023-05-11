@@ -6,9 +6,9 @@ import lightgbm as lgb
 import matplotlib.pyplot as plt
 import numpy as np
 
-from nasbench301.surrogate_models import utils
-from nasbench301.surrogate_models.bananas.bananas_utils import BANANASDataset
-from nasbench301.surrogate_models.surrogate_model import SurrogateModel
+from nasbench301_hry.surrogate_models import utils
+from nasbench301_hry.surrogate_models.bananas.bananas_utils import BANANASDataset
+from nasbench301_hry.surrogate_models.surrogate_model import SurrogateModel
 
 
 class LGBModel(SurrogateModel):

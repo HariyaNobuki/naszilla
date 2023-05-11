@@ -9,8 +9,8 @@ import os
 import pickle
 import numpy as np
 
-from naszilla.bo.fn.functionhandler import get_fh
-from naszilla.bo.ds.makept import main
+from bo.fn.functionhandler import get_fh
+from bo.ds.makept import main
 
 class ProBO(object):
   """ Class to carry out ProBO (probabilistic programming BO) """

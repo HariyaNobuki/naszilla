@@ -5,7 +5,7 @@ import sys
 import numpy as np
 
 from abc import abstractmethod
-from nasbench301.surrogate_models import utils
+from nasbench301_hry.surrogate_models import utils
 
 
 class AbstractEnsemble():

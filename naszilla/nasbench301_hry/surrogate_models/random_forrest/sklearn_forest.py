@@ -6,8 +6,8 @@ import numpy as np
 from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 
-from nasbench301.surrogate_models import utils
-from nasbench301.surrogate_models.surrogate_model import SurrogateModel
+from nasbench301_hry.surrogate_models import utils
+from nasbench301_hry.surrogate_models.surrogate_model import SurrogateModel
 
 
 class SklearnForest(SurrogateModel):
