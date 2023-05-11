@@ -9,10 +9,10 @@ import pickle
 import time
 import numpy as np
 
-from naszilla.bo.dom.real import RealDomain
-from naszilla.bo.dom.list import ListDomain
-from naszilla.bo.acq.acqmap import AcqMapper
-from naszilla.bo.acq.acqopt import AcqOptimizer
+from bo.dom.real import RealDomain
+from bo.dom.list import ListDomain
+from bo.acq.acqmap import AcqMapper
+from bo.acq.acqopt import AcqOptimizer
 
 def main(args, search_space, printinfo=False):
   starttime = time.time()

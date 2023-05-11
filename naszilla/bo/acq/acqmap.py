@@ -6,9 +6,9 @@ from argparse import Namespace
 import numpy as np
 import copy
 
-from naszilla.bo.acq.acquisition import Acquisitioner
-from naszilla.bo.util.datatransform import DataTransformer
-from naszilla.bo.pp.pp_gp_my_distmat import MyGpDistmatPP
+from bo.acq.acquisition import Acquisitioner
+from bo.util.datatransform import DataTransformer
+from bo.pp.pp_gp_my_distmat import MyGpDistmatPP
 
 class AcqMapper(object):
   """ Class to manage acqmap (acquisition map). """

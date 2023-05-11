@@ -12,7 +12,7 @@ from nas_bench_201.cell_201 import Cell201
 from nas_bench_301.cell_301 import Cell301
 
 
-default_data_folder = '~/nas_benchmark_datasets/'
+default_data_folder = 'C://gitedit//gitNPENAS//dataset/'
 
 
 class Nasbench:
@@ -302,7 +302,8 @@ class Nasbench101(Nasbench):
             self.index_hash = pickle.load(open(index_hash_path, 'rb'))
 
         if not self.mf:
-            self.nasbench = api.NASBench(os.path.expanduser(data_folder + 'nasbench_only108.tfrecord'))
+            data_folder = "C://gitedit//gitNPENAS//dataset//nas_bench_101"
+            self.nasbench = api.NASBench("C://gitedit//gitNPENAS//dataset//nas_bench_101//nasbench_only108.tfrecord")
         else:
             self.nasbench = api.NASBench(os.path.expanduser(data_folder + 'nasbench_full.tfrecord'))
 
