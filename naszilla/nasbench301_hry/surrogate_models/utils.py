@@ -16,13 +16,13 @@ from scipy.stats import norm, spearmanr, kendalltau
 from sklearn.metrics import mean_squared_error, r2_score
 from tqdm import tqdm
 
-from nasbench301.surrogate_models.bananas.bananas import BANANASModel
-from nasbench301.surrogate_models.gnn.gnn import GNNSurrogateModel
-from nasbench301.surrogate_models.gradient_boosting.lgboost import LGBModel, LGBModelTime
-from nasbench301.surrogate_models.gradient_boosting.xgboost import XGBModel, XGBModelTime
-from nasbench301.surrogate_models.random_forrest.sklearn_forest import SklearnForest
-from nasbench301.surrogate_models.svr.nu_svr import NuSVR
-from nasbench301.surrogate_models.svr.svr import SVR
+from nasbench301_hry.surrogate_models.bananas.bananas import BANANASModel
+from nasbench301_hry.surrogate_models.gnn.gnn import GNNSurrogateModel
+from nasbench301_hry.surrogate_models.gradient_boosting.lgboost import LGBModel, LGBModelTime
+from nasbench301_hry.surrogate_models.gradient_boosting.xgboost import XGBModel, XGBModelTime
+from nasbench301_hry.surrogate_models.random_forrest.sklearn_forest import SklearnForest
+from nasbench301_hry.surrogate_models.svr.nu_svr import NuSVR
+from nasbench301_hry.surrogate_models.svr.svr import SVR
 
 sns.set_style('whitegrid')
 
