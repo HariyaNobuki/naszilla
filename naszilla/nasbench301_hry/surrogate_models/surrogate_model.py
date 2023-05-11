@@ -10,7 +10,7 @@ import pathvalidate
 import torch
 import torch.backends.cudnn as cudnn
 
-from nasbench301.surrogate_models import utils
+from nasbench301_hry.surrogate_models import utils
 
 
 class SurrogateModel(ABC):
